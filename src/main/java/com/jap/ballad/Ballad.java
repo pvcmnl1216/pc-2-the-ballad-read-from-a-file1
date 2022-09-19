@@ -10,8 +10,6 @@ public class Ballad {
 
     public String readPoemFromAFile(String fileName) {
         String result = "";
-        //noinspection //ReassignedVariable
-        // Write the logic to read from a file
         try (FileReader reader = new FileReader(fileName);
              BufferedReader bufferedReader = new BufferedReader(reader)) {
             String line;
